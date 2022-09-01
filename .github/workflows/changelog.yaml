@@ -11,7 +11,8 @@ jobs:
         with:
           repo-token: ${{ github.token }}
           pattern: '^.*\.jar$'
+          result-encoding: json
       - name: output files created
-        run: echo ${{ steps.changed_files.outputs.files_created }}
+        run: echo "${{ steps.changed_files.outputs.files_created }}"
       - name: output files deleted
-        run: echo ${{ steps.changed_files.outputs.files_deleted }}
+        run: echo "${{ steps.changed_files.outputs.files_deleted }}"
