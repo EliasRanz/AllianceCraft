@@ -1,0 +1,17 @@
+name: Changelog
+on: pull_request
+
+jobs:
+  changelog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Changed Files Exporter
+        uses: umani/changed-files@v3.3.0
+        id: changed_files
+        with:
+          repo-token: ${{ github.token }}
+          pattern: '^.*\.jar$'
+      - name: output files created
+        run: echo ${{ steps.changed_files.outputs.files_created }}
+      - name: output files deleted
+        run: echo ${{ steps.changed_files.outputs.files_deleted }}
