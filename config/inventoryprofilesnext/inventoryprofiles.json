@@ -4,6 +4,7 @@
         "first_run": false
     },
     "GuiSettings": {
+        "enable_profiles_ui": false,
         "continuous_crafting_saved_value": false
     },
     "LockedSlotsSettings": {
