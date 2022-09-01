@@ -1,0 +1,12 @@
+{
+    "ModSettings": {
+        "for_modpack_devs": true,
+        "first_run": false
+    },
+    "GuiSettings": {
+        "continuous_crafting_saved_value": false
+    },
+    "LockedSlotsSettings": {
+        "locked_slots_empty_hotbar_as_semi_locked": false
+    }
+}

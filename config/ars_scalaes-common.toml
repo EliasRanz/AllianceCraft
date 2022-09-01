@@ -1,0 +1,19 @@
+
+["general configs"]
+	#Enable or disable magic flag on spell damage, for interaction with magic reduction or proficiency
+	"turn spells magic" = true
+
+#Pmmo scaling
+[PMMO]
+	#XP gained per Mana spent
+	ars_mana = 0.1
+	#% Bonus to Spell Damage per Magic level
+	ars_damage_bonus = 0.0
+	#% Bonus to Spell Resistance per Magic level
+	ars_defense_bonus = 0.0
+
+#Scaling Health scaling
+["SCALING HEALTH"]
+	#Spell Damage bonus per crystal
+	scaling_ars_damage = 0.0
+
