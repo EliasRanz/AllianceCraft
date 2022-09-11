@@ -1,6 +1,9 @@
 {
   "general": {
-    "engines": 0
+    "engines": 0,
+    "volume": 1,
+    "useSoundMasterSource": false,
+    "scanStepAmount": 100
   },
   "dimensions": {
     "nether": 1,
